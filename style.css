@@ -1,1 +1,11 @@
-content style.css
+.myPhoto {
+    border-radius: 100px;
+    /* Радиус скругления */
+    border: 1px solid black;
+    /* Параметры рамки */
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
