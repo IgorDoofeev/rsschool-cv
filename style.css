@@ -1,11 +1,79 @@
-.myPhoto {
-    border-radius: 100px;
-    /* Радиус скругления */
-    border: 1px solid black;
-    /* Параметры рамки */
+.header {
+    background-color: #778899;
+    padding: 0 100px;
 }
 
-.content {
-    max-width: 500px;
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: .3s;
+    color: azure;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100px;
     margin: auto;
+    padding: 0;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+.myPhoto {
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #778899;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: lightslategray;
+    padding: 0 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    color: #fff;
 }
