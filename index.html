@@ -9,68 +9,84 @@
     <title>CV Dorofeev Igor</title>
 </head>
 
-<body class="content">
-
-    <header class="cvHeader">
-        <img class="myPhoto" src="./myPhoto.JPG" alt="photoIgorDorofeev" width="200" height="200">
-        <h1 class="nameFirstName"> Dorofeev Igor</h1>
-        <h2>JavaScript FrotntEnd Developer</h2>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#aboutMe" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#hardSkills" class="nav-link">Hard skills</a></li>
+                    <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#myProject" class="nav-link">My Projects</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <div class="aboutMe">
-            <h2>About me</h2>
-            <ul>
-                <li>I just started the course JavaScript/Front-end</li>
-                <li>I really want to study and work.</li>
-                <li>Open to any suggestions and recommendations</li>
-            </ul>
-        </div>
-        <div class="hardSkills">
-            <h2>Hard skills</h2>
-            <ol>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Jira</li>
-                <li>Git</li>
-                <li>Figma</li>
-            </ol>
-        </div>
-        <div class="Languages">
-            <h2>Languages</h2>
-            <p>Russian - native</p>
-            <p>English - A2 (Elementary)</p>
-        </div>
-        <div class="workExperience">
-            <h2>Work experience</h2>
-            <dl>
-                <dt><b>UG-Element (02.2020 - 12.2021)</b></dt>
-                <dd>Sales Manager</dd>
-                <dt><b>Group Company "Sirius" (04.2018 - 12.2019)</b></dt>
-                <dd>Sales Manager</dd>
-            </dl>
-        </div>
-        <div class="myProject">
-            <p><b>My Projects</b></p>
-            <p>Here are my completed projects.</p>
+        <div class="container main-container">
+            <section class="section-profile" id="profile">
+                <img class="myPhoto" src="./myPhoto.JPG" alt="photoIgorDorofeev" width="200" height="200">
+                <h1 class="nameFirstName"> Dorofeev Igor</h1>
+                <h2>JavaScript FrotntEnd Developer</h2>
+            </section>
+            <section class="section" id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li><b>Name: </b>Dorofeev Igor</li>
+                    <li><b>t.me: </b>@gothar_23</li>
+                    <li><b>Github: </b><a href="https://github.com/IgorDoofeev">Link</a></li>
+                    <li><b>Email: </b>gothar2010@yandex.ru</li>
+                    <li><b>Phone: </b>+7-938-426-95-36</li>
+                    <li><b>Location: </b>Krasnodar, Russia</li>
+                </ul>
+            </section>
+            <section class="section" id="aboutMe">
+                <h2>About me</h2>
+                <ul>
+                    <li>I just started the course JavaScript/Front-end</li>
+                    <li>I really want to study and work.</li>
+                    <li>Open to any suggestions and recommendations</li>
+                </ul>
+            </section>
+            <section class="section" id="hardSkills">
+                <h2>Hard skills</h2>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Jira</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                </ol>
+            </section>
+            <section class="section" id="Languages">
+                <h2>Languages</h2>
+                <p>Russian - native</p>
+                <p>English - A2 (Elementary)</p>
+            </section>
+            <section class="section" id="workExperience">
+                <h2>Work experience</h2>
+                <dl>
+                    <dt><b>UG-Element (02.2020 - 12.2021)</b></dt>
+                    <dd>Sales Manager</dd>
+                    <dt><b>Group Company "Sirius" (04.2018 - 12.2019)</b></dt>
+                    <dd>Sales Manager</dd>
+                </dl>
+            </section>
+            <section class="section" id="myProject">
+                <h2>My Projects</h2>
+                <p>Here are my completed projects.</p>
+            </section>
         </div>
     </main>
 
-    <footer class="cvFooter">
-        <p>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>© 2022
+                <a href="https://github.com/IgorDoofeev/" class="github nav-link">IgorDoofeev</a>
+            </div>
             <a href="https://rs.school/js/"><img src="./logo-rs.svg" alt="rsSchool" width="100" height="100"></a>
-        </p>
-        <div class="contacts">
-            <h2>Contacts</h2>
-            <ul>
-                <li><b>Name</b><br>Dorofeev Igor</li>
-                <li><b>t.me</b><br>@gothar_23</li>
-                <li><b>Github</b><br><a href="https://github.com/IgorDoofeev">Link</a></li>
-                <li><b>Email</b><br>gothar2010@yandex.ru</li>
-                <li><b>Phone</b><br>+7-938-426-95-36</li>
-                <li><b>Location</b><br>Krasnodar, Russia</li>
-                <li>© 2022</li>
-            </ul>
         </div>
     </footer>
 
